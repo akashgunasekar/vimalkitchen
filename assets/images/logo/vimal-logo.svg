@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 76" fill="none" width="340" height="76">
+  <defs>
+    <linearGradient id="vimalFlameGrad" x1="0%" y1="100%" x2="40%" y2="0%">
+      <stop offset="0%" stop-color="#D71920" />
+      <stop offset="50%" stop-color="#EF2B1F" />
+      <stop offset="100%" stop-color="#FF6A00" />
+    </linearGradient>
+    <linearGradient id="vimalBlueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0878D1" />
+      <stop offset="100%" stop-color="#054A84" />
+    </linearGradient>
+    <filter id="flameGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#EF2B1F" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Flame Identity Symbol -->
+  <g transform="translate(6, 4)" filter="url(#flameGlow)">
+    <!-- Primary Outer Flame -->
+    <path d="M28 2 C32 14, 46 22, 46 38 C46 54, 34 66, 18 66 C10 66, 2 60, 2 48 C2 36, 12 30, 16 18 C18 26, 22 30, 26 28 C26 20, 24 10, 28 2 Z" fill="url(#vimalFlameGrad)" />
+    
+    <!-- Inner Flame / Heat Core -->
+    <path d="M25 24 C28 32, 36 38, 36 48 C36 57, 30 63, 20 63 C15 63, 11 59, 11 52 C11 44, 18 40, 20 32 C21 37, 23 38, 25 24 Z" fill="#FFA300" opacity="0.9" />
+
+    <!-- Dynamic Blue Flow Accent (Gas/Pipeline/Engineering) -->
+    <path d="M12 50 C12 62, 22 66, 30 66 C42 66, 52 56, 52 42 C52 30, 44 22, 38 18 C41 26, 44 34, 42 42 C40 50, 32 58, 22 58 C16 58, 13 54, 12 50 Z" fill="url(#vimalBlueGrad)" />
+  </g>
+
+  <!-- Wordmark: VIMAL -->
+  <text x="74" y="47" font-family="'Barlow Condensed', 'Arial Black', sans-serif" font-size="46" font-weight="900" letter-spacing="1.5" fill="#071A2F">VIMAL</text>
+
+  <!-- Descriptor: KITCHEN EQUIPMENT -->
+  <text x="76" y="66" font-family="'Manrope', sans-serif" font-size="10.5" font-weight="800" letter-spacing="3.8" fill="#475569">KITCHEN EQUIPMENT</text>
+
+  <!-- Accent Underline Dynamic Flow Indicator -->
+  <rect x="76" y="52" width="232" height="2" fill="#E2E8F0" rx="1" />
+  <rect x="76" y="52" width="46" height="2" fill="#0878D1" rx="1" />
+  <rect x="122" y="52" width="38" height="2" fill="#EF2B1F" rx="1" />
+  <rect x="160" y="52" width="24" height="2" fill="#FF6A00" rx="1" />
+</svg>

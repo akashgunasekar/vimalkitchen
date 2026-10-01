@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | VIMAL Kitchen Equipment - Commercial Kitchen Infrastructure</title>
+  <meta name="description" content="Learn about VIMAL Kitchen Equipment: professional commercial kitchen equipment manufacturer, certified LPG &amp; boiler steam pipeline engineering, and ventilation systems.">
+  <link rel="canonical" href="https://www.vimalkitchen.com/about.html">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About VIMAL Kitchen Equipment">
+  <meta property="og:description" content="Commercial kitchen equipment and complete infrastructure solutions engineered for hotels, restaurants, and industries.">
+  <meta property="og:image" content="assets/images/hero/hero-commercial-kitchen.jpg">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-navy': '#071A2F',
+            'brand-navy-light': '#0D2746',
+            'brand-red': '#D71920',
+            'brand-red-dark': '#B8141A',
+            'brand-flame-red': '#EF2B1F',
+            'brand-flame-orange': '#FF6A00',
+            'brand-blue': '#0878D1',
+            'brand-blue-dark': '#054A84',
+            'brand-steel': '#CBD5E1',
+            'bg-secondary': '#F7F9FC',
+            'bg-soft': '#F1F5F9',
+          },
+          fontFamily: {
+            display: ['"Barlow Condensed"', 'sans-serif'],
+            ui: ['"Manrope"', 'sans-serif'],
+            body: ['"Inter"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-brand-red selection:text-white">
+
+  <!-- Top Strip -->
+  <div class="bg-brand-navy text-slate-300 text-xs py-2 px-4 border-b border-slate-800 hidden sm:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center font-ui">
+      <div class="flex items-center space-x-6">
+        <span class="flex items-center gap-1.5 font-medium">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-brand-blue"></i>
+          Complete Commercial Kitchen Infrastructure &amp; Engineering
+        </span>
+        <span class="text-slate-600">|</span>
+        <span class="flex items-center gap-1.5">
+          <i data-lucide="flame" class="w-3.5 h-3.5 text-brand-flame-red"></i>
+          Commercial LPG &amp; Boiler Steam Pipeline Certified
+        </span>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a href="tel:+919876543210" data-config="phone-link" class="hover:text-white flex items-center gap-1.5 transition-colors">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 text-brand-blue"></i>
+          <span data-config="phone-number">+91 98765 43210</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Header -->
+  <header class="site-header sticky top-0 bg-white/95 backdrop-blur-md z-50 border-b border-slate-200 transition-all duration-300">
+    <div class="max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <a href="index.html" class="flex items-center group" aria-label="VIMAL Kitchen Equipment Home">
+        <img src="assets/images/logo/vimal-logo.png" alt="VIMAL Kitchen Equipment Logo" class="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]">
+      </a>
+
+      <nav class="hidden lg:flex items-center space-x-1" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link active">About</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="gallery.html" class="nav-link">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="hidden lg:flex items-center space-x-4">
+        <a href="https://wa.me/919876543210" data-config="whatsapp-link" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg border border-slate-200 text-slate-700 hover:text-emerald-600 hover:border-emerald-300 hover:bg-emerald-50 transition-all" title="WhatsApp Technical Support">
+          <i data-lucide="message-circle" class="w-5 h-5 text-emerald-600"></i>
+        </a>
+        <a href="contact.html" class="btn-primary">
+          <span>GET A QUOTE</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <div class="flex lg:hidden items-center space-x-2">
+        <a href="contact.html" class="btn-primary btn-sm text-xs py-2 px-3">QUOTE</a>
+        <button id="mobile-menu-btn" class="p-2.5 rounded-lg text-slate-800 hover:bg-slate-100 focus:outline-none" aria-label="Open Navigation Menu">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-panel" class="mobile-nav-panel fixed inset-0 z-50 bg-white/98 backdrop-blur-xl flex flex-col justify-between p-6 overflow-y-auto">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-slate-100">
+        <img src="assets/images/logo/vimal-logo.png" alt="VIMAL Logo" class="h-11 w-auto object-contain">
+        <button id="mobile-close-btn" class="p-2 rounded-lg text-slate-600 hover:bg-slate-100" aria-label="Close Navigation Menu">
+          <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+      </div>
+      <nav class="flex flex-col space-y-3 py-8" aria-label="Mobile Navigation">
+        <a href="index.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Home</a>
+        <a href="about.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">About</a>
+        <a href="products.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Products</a>
+        <a href="services.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Services</a>
+        <a href="industries.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Industries</a>
+        <a href="projects.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Projects</a>
+        <a href="gallery.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Gallery</a>
+        <a href="contact.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Contact</a>
+      </nav>
+    </div>
+    <div class="space-y-3 pt-6 border-t border-slate-100">
+      <a href="contact.html" class="btn-primary w-full text-center">GET A QUOTE</a>
+      <a href="https://wa.me/919876543210" data-config="whatsapp-link" target="_blank" rel="noopener noreferrer" class="btn-whatsapp w-full text-center flex items-center justify-center gap-2">
+        <i data-lucide="message-circle" class="w-5 h-5"></i>
+        <span>WHATSAPP US</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Page Header -->
+  <section class="bg-bg-secondary py-16 border-b border-slate-200 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-pattern opacity-30 pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-3xl space-y-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-ui font-bold tracking-widest text-slate-700 uppercase">
+          <span class="w-2 h-2 rounded-full bg-brand-red"></span>
+          <span>ABOUT VIMAL KITCHEN EQUIPMENT</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold text-brand-navy leading-none">
+          ENGINEERING RELIABILITY<br>
+          <span class="brand-gradient-text">FOR COMMERCIAL KITCHENS.</span>
+        </h1>
+        <p class="text-lg text-slate-600 font-body leading-relaxed">
+          We combine heavy-duty stainless steel culinary equipment fabrication with certified LPG gas and boiler steam pipeline engineering to deliver turnkey commercial kitchen infrastructure.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Detailed About Story Section -->
+  <section class="py-20 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <div class="brand-flow-line-sm"></div>
+          <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-navy">
+            NOT JUST EQUIPMENT.<br>
+            COMPLETE INFRASTRUCTURE.
+          </h2>
+          <p class="text-slate-600 font-body leading-relaxed">
+            VIMAL Kitchen Equipment was established to address the critical gap between equipment suppliers and pipeline contractors in the commercial food service industry. In high-output culinary operations, equipment cannot function safely without calibrated gas manifolds, balanced exhaust ventilation, and reliable steam distribution.
+          </p>
+          <p class="text-slate-600 font-body leading-relaxed">
+            By integrating equipment fabrication with complete utility engineering under one roof, we eliminate coordination failures, ensure safety compliance, and maximize kitchen productivity for hotels, restaurants, industrial canteens, and institutional facilities.
+          </p>
+
+          <div class="grid grid-cols-2 gap-4 pt-4 border-t border-slate-100">
+            <div>
+              <span class="block text-2xl font-display font-black text-brand-red">AISI 304</span>
+              <span class="text-xs font-ui font-bold uppercase tracking-wider text-slate-500">Food Grade Stainless Steel</span>
+            </div>
+            <div>
+              <span class="block text-2xl font-display font-black text-brand-blue">HYDRO-TESTED</span>
+              <span class="text-xs font-ui font-bold uppercase tracking-wider text-slate-500">LPG &amp; Steam Manifolds</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="rounded-2xl overflow-hidden border border-slate-200 shadow-xl bg-slate-900">
+            <img src="assets/images/hero/hero-commercial-kitchen.jpg" alt="Commercial Kitchen Engineering Line" class="w-full h-auto object-cover">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Standards & Scope Infographic Section -->
+  <section class="py-16 bg-slate-50 border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6">
+      <div class="brand-flow-line-sm mx-auto"></div>
+      <span class="text-xs font-ui font-extrabold uppercase tracking-widest text-brand-red block">OFFICIAL BRAND IDENTITY &amp; INFRASTRUCTURE SYSTEM</span>
+      <h2 class="text-3xl sm:text-4xl font-display font-extrabold text-brand-navy">
+        THE VIMAL QUALITY EMBLEM
+      </h2>
+      <p class="text-slate-600 text-sm font-body max-w-2xl mx-auto">
+        Certified standards across commercial cooking, ventilation, food processing, bulk preparation, and LPG &amp; steam pipelines.
+      </p>
+      <div class="p-4 sm:p-6 bg-white rounded-2xl border border-slate-200 shadow-lg max-w-4xl mx-auto hover:border-brand-red transition-all">
+        <img src="assets/images/logo/vimal-brand-badge.png" alt="VIMAL Kitchen Equipment Official Brand Mark and Scope" class="w-full h-auto mx-auto object-contain rounded-lg">
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Engineering Capabilities / 6 Pillars -->
+  <section class="py-20 bg-bg-secondary border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="text-center max-w-3xl mx-auto mb-14 space-y-2">
+        <span class="text-xs font-ui font-extrabold uppercase tracking-widest text-brand-blue">TECHNICAL PILLARS</span>
+        <h2 class="text-4xl sm:text-5xl font-display font-extrabold text-brand-navy">
+          OUR CORE CAPABILITIES
+        </h2>
+        <p class="text-slate-600 font-body">
+          Precision manufacturing, certified pipeline engineering, and responsive support.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-white p-7 rounded-xl border border-slate-200 hover:border-brand-red transition-all shadow-sm">
+          <div class="w-12 h-12 rounded-lg bg-red-50 text-brand-red flex items-center justify-center mb-4">
+            <i data-lucide="layers" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-ui font-extrabold text-brand-navy mb-2">PRECISION FABRICATION</h3>
+          <p class="text-sm text-slate-600 leading-relaxed font-body">
+            Custom stainless steel counters, heavy-duty gas ranges, sinks, and prep surfaces built from heavy-gauge food-safe stainless steel.
+          </p>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl border border-slate-200 hover:border-brand-blue transition-all shadow-sm">
+          <div class="w-12 h-12 rounded-lg bg-blue-50 text-brand-blue flex items-center justify-center mb-4">
+            <i data-lucide="git-commit" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-ui font-extrabold text-brand-navy mb-2">LPG PIPELINE CERTIFICATION</h3>
+          <p class="text-sm text-slate-600 leading-relaxed font-body">
+            Seamless carbon steel and stainless steel gas pipeline networks with calibrated two-stage pressure regulators and automatic shut-off safety valves.
+          </p>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl border border-slate-200 hover:border-brand-flame-orange transition-all shadow-sm">
+          <div class="w-12 h-12 rounded-lg bg-orange-50 text-brand-flame-orange flex items-center justify-center mb-4">
+            <i data-lucide="wind" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-ui font-extrabold text-brand-navy mb-2">AERODYNAMIC VENTILATION</h3>
+          <p class="text-sm text-slate-600 leading-relaxed font-body">
+            Stainless baffle grease extraction hoods and low-noise centrifugal blowers engineered to remove thermal heat, smoke, and vapors.
+          </p>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl border border-slate-200 hover:border-brand-blue transition-all shadow-sm">
+          <div class="w-12 h-12 rounded-lg bg-blue-50 text-brand-blue flex items-center justify-center mb-4">
+            <i data-lucide="gauge" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-ui font-extrabold text-brand-navy mb-2">BOILER STEAM LINES</h3>
+          <p class="text-sm text-slate-600 leading-relaxed font-body">
+            Insulated high-pressure steam distribution lines for steam jacketed boiling pans, idli steamers, and high-volume sanitization.
+          </p>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl border border-slate-200 hover:border-brand-red transition-all shadow-sm">
+          <div class="w-12 h-12 rounded-lg bg-red-50 text-brand-red flex items-center justify-center mb-4">
+            <i data-lucide="zap" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-ui font-extrabold text-brand-navy mb-2">INDUCTION &amp; PROCESSING</h3>
+          <p class="text-sm text-slate-600 leading-relaxed font-body">
+            High efficiency electromagnetic commercial induction cooktops and robust mechanical food processing preparation equipment.
+          </p>
+        </div>
+
+        <div class="bg-white p-7 rounded-xl border border-slate-200 hover:border-brand-navy transition-all shadow-sm">
+          <div class="w-12 h-12 rounded-lg bg-slate-100 text-brand-navy flex items-center justify-center mb-4">
+            <i data-lucide="shield-check" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-xl font-ui font-extrabold text-brand-navy mb-2">LIFESPAN MAINTENANCE</h3>
+          <p class="text-sm text-slate-600 leading-relaxed font-body">
+            Comprehensive Annual Maintenance Contracts (AMC), routine safety checks, leak detections, and rapid component replacements.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA Strip -->
+  <section class="py-16 bg-white border-b border-slate-200">
+    <div class="max-w-5xl mx-auto px-4 text-center space-y-6">
+      <div class="brand-flow-line-sm mx-auto"></div>
+      <h2 class="text-4xl font-display font-extrabold text-brand-navy">
+        CONSULT WITH OUR TECHNICAL DIRECTORS
+      </h2>
+      <p class="text-slate-600 max-w-xl mx-auto font-body">
+        Discuss your commercial kitchen layout, capacity requirements, or utility pipeline plan with an experienced engineering team.
+      </p>
+      <div class="flex flex-wrap justify-center gap-4 pt-2">
+        <a href="contact.html" class="btn-primary">REQUEST TECHNICAL CONSULTATION</a>
+        <a href="https://wa.me/919876543210" data-config="whatsapp-link" target="_blank" rel="noopener noreferrer" class="btn-whatsapp">
+          <i data-lucide="message-circle" class="w-5 h-5"></i>
+          <span>WHATSAPP US</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Navy Footer -->
+  <footer class="site-footer bg-brand-navy pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
+        <div class="lg:col-span-2 space-y-4">
+          <a href="index.html" class="inline-block" aria-label="VIMAL Kitchen Equipment Home">
+            <img src="assets/images/logo/vimal-logo-white.png" alt="VIMAL Kitchen Equipment Logo" class="h-12 sm:h-14 w-auto object-contain">
+          </a>
+          <p class="text-xs uppercase tracking-widest text-brand-flame-orange font-ui font-extrabold">Powering Great Kitchens</p>
+          <p class="text-slate-400 text-sm max-w-sm font-body">Commercial kitchen equipment manufacturer and certified LPG gas &amp; boiler steam pipeline engineering contractor.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-sm font-ui font-extrabold uppercase tracking-wider text-white">Company</h4>
+          <ul class="space-y-2 text-sm font-ui">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link text-white font-bold">About Us</a></li>
+            <li><a href="services.html" class="footer-link">Our Services</a></li>
+            <li><a href="industries.html" class="footer-link">Industries</a></li>
+            <li><a href="projects.html" class="footer-link">Projects &amp; Sites</a></li>
+            <li><a href="gallery.html" class="footer-link">Installation Gallery</a></li>
+            <li><a href="contact.html" class="footer-link">Contact &amp; Enquiry</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-sm font-ui font-extrabold uppercase tracking-wider text-white">Equipment</h4>
+          <ul class="space-y-2 text-sm font-ui">
+            <li><a href="products.html" class="footer-link">Commercial Cooking</a></li>
+            <li><a href="products.html" class="footer-link">Exhaust Ventilation</a></li>
+            <li><a href="products.html" class="footer-link">Food Processing Machines</a></li>
+            <li><a href="products.html" class="footer-link">Induction Equipment</a></li>
+            <li><a href="products.html" class="footer-link">Bulk Cooking Systems</a></li>
+            <li><a href="products.html" class="footer-link text-brand-flame-orange font-bold">LPG &amp; Steam Pipeline</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-sm font-ui font-extrabold uppercase tracking-wider text-white">Contact</h4>
+          <div class="space-y-2 text-xs font-ui text-slate-400">
+            <p class="flex items-start gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-brand-blue flex-shrink-0 mt-0.5"></i>
+              <span data-config="address">Industrial Estate, Guindy, Chennai, Tamil Nadu - 600032, India</span>
+            </p>
+            <p class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-brand-blue flex-shrink-0"></i>
+              <a href="tel:+919876543210" data-config="phone-link" class="hover:text-white" data-config="phone-number">+91 98765 43210</a>
+            </p>
+            <p class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-brand-blue flex-shrink-0"></i>
+              <a href="mailto:contact@vimalkitchen.com" data-config="email-link" class="hover:text-white" data-config="email">contact@vimalkitchen.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 font-ui gap-4">
+        <p>© 2026 VIMAL Kitchen Equipment. All Rights Reserved.</p>
+        <div class="flex space-x-6">
+          <a href="#" class="hover:text-slate-300">Privacy Policy</a>
+          <a href="#" class="hover:text-slate-300">Terms of Service</a>
+          <a href="sitemap.xml" class="hover:text-slate-300">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919876543210" data-config="whatsapp-link" target="_blank" rel="noopener noreferrer" class="whatsapp-floating" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <i data-lucide="message-circle" class="w-5 h-5 text-white"></i>
+    <span>WhatsApp Us</span>
+  </a>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animation.js"></script>
+</body>
+</html>

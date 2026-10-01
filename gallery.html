@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Installation Gallery | VIMAL Kitchen Equipment</title>
+  <meta name="description" content="View our portfolio of commercial kitchen equipment installations, stainless steel exhaust ventilation setups, and LPG/steam pipeline engineering projects.">
+  <link rel="canonical" href="https://www.vimalkitchen.com/gallery.html">
+  
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Commercial Kitchen Gallery | VIMAL Kitchen Equipment">
+  <meta property="og:description" content="Visual portfolio of high-grade commercial kitchens, ventilation hoods, and certified LPG pipelines.">
+  <meta property="og:image" content="assets/images/gallery/gallery-01.jpg">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'brand-navy': '#071A2F',
+            'brand-navy-light': '#0D2746',
+            'brand-red': '#D71920',
+            'brand-red-dark': '#B8141A',
+            'brand-flame-red': '#EF2B1F',
+            'brand-flame-orange': '#FF6A00',
+            'brand-blue': '#0878D1',
+            'brand-blue-dark': '#054A84',
+            'brand-steel': '#CBD5E1',
+            'bg-secondary': '#F7F9FC',
+            'bg-soft': '#F1F5F9',
+          },
+          fontFamily: {
+            display: ['"Barlow Condensed"', 'sans-serif'],
+            ui: ['"Manrope"', 'sans-serif'],
+            body: ['"Inter"', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-white text-slate-800 antialiased selection:bg-brand-red selection:text-white">
+
+  <!-- Top Strip -->
+  <div class="bg-brand-navy text-slate-300 text-xs py-2 px-4 border-b border-slate-800 hidden sm:block">
+    <div class="max-w-7xl mx-auto flex justify-between items-center font-ui">
+      <div class="flex items-center space-x-6">
+        <span class="flex items-center gap-1.5 font-medium">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5 text-brand-blue"></i>
+          Complete Commercial Kitchen Infrastructure &amp; Engineering
+        </span>
+        <span class="text-slate-600">|</span>
+        <span class="flex items-center gap-1.5">
+          <i data-lucide="flame" class="w-3.5 h-3.5 text-brand-flame-red"></i>
+          LPG &amp; Boiler Steam Pipeline Certified
+        </span>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a href="tel:+919876543210" data-config="phone-link" class="hover:text-white flex items-center gap-1.5 transition-colors">
+          <i data-lucide="phone-call" class="w-3.5 h-3.5 text-brand-blue"></i>
+          <span data-config="phone-number">+91 98765 43210</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Primary Header -->
+  <header class="site-header sticky top-0 bg-white/95 backdrop-blur-md z-50 border-b border-slate-200 transition-all duration-300">
+    <div class="max-w-7xl mx-auto h-full px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+      <a href="index.html" class="flex items-center group" aria-label="VIMAL Kitchen Equipment Home">
+        <img src="assets/images/logo/vimal-logo.png" alt="VIMAL Kitchen Equipment Logo" class="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.02]">
+      </a>
+
+      <nav class="hidden lg:flex items-center space-x-1" aria-label="Primary Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="gallery.html" class="nav-link active">Gallery</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="hidden lg:flex items-center space-x-4">
+        <a href="https://wa.me/919876543210" data-config="whatsapp-link" target="_blank" rel="noopener noreferrer" class="p-2.5 rounded-lg border border-slate-200 text-slate-700 hover:text-emerald-600 hover:border-emerald-300 hover:bg-emerald-50 transition-all" title="WhatsApp Technical Support">
+          <i data-lucide="message-circle" class="w-5 h-5 text-emerald-600"></i>
+        </a>
+        <a href="contact.html" class="btn-primary">
+          <span>GET A QUOTE</span>
+          <i data-lucide="arrow-right" class="w-4 h-4"></i>
+        </a>
+      </div>
+
+      <div class="flex lg:hidden items-center space-x-2">
+        <a href="contact.html" class="btn-primary btn-sm text-xs py-2 px-3">QUOTE</a>
+        <button id="mobile-menu-btn" class="p-2.5 rounded-lg text-slate-800 hover:bg-slate-100 focus:outline-none" aria-label="Open Navigation Menu">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobile-nav-panel" class="mobile-nav-panel fixed inset-0 z-50 bg-white/98 backdrop-blur-xl flex flex-col justify-between p-6 overflow-y-auto">
+    <div>
+      <div class="flex items-center justify-between pb-6 border-b border-slate-100">
+        <img src="assets/images/logo/vimal-logo.png" alt="VIMAL Logo" class="h-11 w-auto object-contain">
+        <button id="mobile-close-btn" class="p-2 rounded-lg text-slate-600 hover:bg-slate-100" aria-label="Close Navigation Menu">
+          <i data-lucide="x" class="w-6 h-6"></i>
+        </button>
+      </div>
+      <nav class="flex flex-col space-y-3 py-8" aria-label="Mobile Navigation">
+        <a href="index.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Home</a>
+        <a href="about.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">About</a>
+        <a href="products.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Products</a>
+        <a href="services.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Services</a>
+        <a href="industries.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Industries</a>
+        <a href="projects.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Projects</a>
+        <a href="gallery.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Gallery</a>
+        <a href="contact.html" class="mobile-nav-link text-xl font-display font-bold uppercase tracking-wider text-brand-navy hover:text-brand-red py-2 border-b border-slate-50">Contact</a>
+      </nav>
+    </div>
+    <div class="space-y-3 pt-6 border-t border-slate-100">
+      <a href="contact.html" class="btn-primary w-full text-center">GET A QUOTE</a>
+      <a href="https://wa.me/919876543210" data-config="whatsapp-link" target="_blank" rel="noopener noreferrer" class="btn-whatsapp w-full text-center flex items-center justify-center gap-2">
+        <i data-lucide="message-circle" class="w-5 h-5"></i>
+        <span>WHATSAPP US</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Page Header -->
+  <section class="bg-bg-secondary py-16 border-b border-slate-200 relative overflow-hidden">
+    <div class="absolute inset-0 bg-grid-pattern opacity-30 pointer-events-none"></div>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="max-w-3xl space-y-4">
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 text-xs font-ui font-bold tracking-widest text-slate-700 uppercase">
+          <span class="w-2 h-2 rounded-full bg-brand-flame-red"></span>
+          <span>VISUAL DOCUMENTATION</span>
+        </div>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-display font-extrabold text-brand-navy leading-none">
+          ENGINEERING &amp; INSTALLATION<br>
+          <span class="brand-gradient-text">GALLERY.</span>
+        </h1>
+        <p class="text-lg text-slate-600 font-body leading-relaxed">
+          High-resolution photography showcasing precision commercial kitchen fabrication, commercial exhaust ventilation lines, and certified LPG gas manifolds.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Filter Strip -->
+  <section class="py-8 bg-white border-b border-slate-200 sticky top-[72px] lg:top-[84px] z-30 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center gap-2 overflow-x-auto pb-2 sm:pb-0 scrollbar-none" id="gallery-filters">
+        <button class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-ui font-extrabold uppercase tracking-wider transition-all bg-brand-red text-white shadow-sm flex-shrink-0" data-filter="all">
+          ALL
+        </button>
+        <button class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-ui font-bold uppercase tracking-wider transition-all bg-white text-slate-700 border border-slate-200 flex-shrink-0" data-filter="kitchen-equipment">
+          KITCHEN EQUIPMENT
+        </button>
+        <button class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-ui font-bold uppercase tracking-wider transition-all bg-white text-slate-700 border border-slate-200 flex-shrink-0" data-filter="installations">
+          INSTALLATIONS
+        </button>
+        <button class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-ui font-bold uppercase tracking-wider transition-all bg-white text-slate-700 border border-slate-200 flex-shrink-0" data-filter="ventilation">
+          VENTILATION
+        </button>
+        <button class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-ui font-bold uppercase tracking-wider transition-all bg-white text-slate-700 border border-slate-200 flex-shrink-0 text-brand-blue" data-filter="pipeline">
+          PIPELINE
+        </button>
+        <button class="gallery-filter-btn px-4 py-2 rounded-lg text-xs font-ui font-bold uppercase tracking-wider transition-all bg-white text-slate-700 border border-slate-200 flex-shrink-0" data-filter="projects">
+          PROJECTS
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Masonry Grid Gallery -->
+  <section class="py-16 bg-bg-secondary min-h-[700px]">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="gallery-grid" id="gallery-container">
+        
+        <!-- 01: Complete Commercial Kitchen -->
+        <div class="gallery-item" data-category="installations" data-title="Turnkey Commercial Kitchen Line" data-category-label="Full Installation">
+          <img src="assets/images/gallery/gallery-01.jpg" alt="Turnkey Commercial Kitchen Setup">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-flame-orange"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Turnkey Kitchen Line</h4>
+              <p class="text-xs text-slate-300">Hotels &amp; Banquets</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02: Commercial Cooking Range -->
+        <div class="gallery-item" data-category="kitchen-equipment" data-title="Heavy Duty 4-Burner Cooking Range" data-category-label="Kitchen Equipment">
+          <img src="assets/images/gallery/gallery-02.jpg" alt="Commercial Cooking Range">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-red"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Heavy Duty 4-Burner Range</h4>
+              <p class="text-xs text-slate-300">Commercial Cooking</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03: Exhaust Ventilation Hood -->
+        <div class="gallery-item" data-category="ventilation" data-title="Industrial Baffle Exhaust Hood System" data-category-label="Ventilation">
+          <img src="assets/images/gallery/gallery-03.jpg" alt="Industrial Baffle Ventilation Hood">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-blue"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Baffle Exhaust Hood</h4>
+              <p class="text-xs text-slate-300">Kitchen Ventilation</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04: LPG & Steam Pipeline Manifold -->
+        <div class="gallery-item" data-category="pipeline" data-title="Certified Commercial LPG & Steam Manifold" data-category-label="Utility Pipeline">
+          <img src="assets/images/gallery/gallery-04.jpg" alt="Certified LPG Gas Pipeline Manifold">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-blue"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">LPG &amp; Steam Manifold</h4>
+              <p class="text-xs text-slate-300">Gas &amp; Steam Infrastructure</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05: Induction Cooking Suite -->
+        <div class="gallery-item" data-category="kitchen-equipment" data-title="Commercial Heavy-Duty Induction Cooktop" data-category-label="Kitchen Equipment">
+          <img src="assets/images/gallery/gallery-05.jpg" alt="Commercial Induction Unit">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-flame-red"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Induction Range Suite</h4>
+              <p class="text-xs text-slate-300">Induction Equipment</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 06: Bulk Steam Kettles -->
+        <div class="gallery-item" data-category="kitchen-equipment" data-title="Bulk Steam Jacketed Boiling Kettles" data-category-label="Bulk Cooking">
+          <img src="assets/images/gallery/gallery-06.jpg" alt="Bulk Cooking Steam Jacketed Kettles">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-flame-orange"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Steam Jacketed Kettles</h4>
+              <p class="text-xs text-slate-300">Bulk Cooking</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 07: Hotel Kitchen Project -->
+        <div class="gallery-item" data-category="projects" data-title="Hotel Kitchen Workstation Installation" data-category-label="Turnkey Project">
+          <img src="assets/images/gallery/gallery-07.jpg" alt="Hotel Commercial Kitchen Installation">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-blue"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Hotel Culinary Center</h4>
+              <p class="text-xs text-slate-300">Project Installation</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 08: Industrial Canteen Scale -->
+        <div class="gallery-item" data-category="projects" data-title="Industrial Canteen Service Counter Network" data-category-label="Project">
+          <img src="assets/images/gallery/gallery-08.jpg" alt="Industrial Canteen Equipment">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-navy"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Industrial Canteen Lines</h4>
+              <p class="text-xs text-slate-300">High Volume Project</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- 09: Food Processing Prep Station -->
+        <div class="gallery-item" data-category="kitchen-equipment" data-title="Industrial Food Processing & Prep Station" data-category-label="Food Processing">
+          <img src="assets/images/products/food-processing.jpg" alt="Commercial Food Processing Machines">
+          <div class="gallery-overlay">
+            <div class="text-center p-4 text-white">
+              <i data-lucide="zoom-in" class="w-8 h-8 mx-auto mb-2 text-brand-blue"></i>
+              <h4 class="text-lg font-ui font-extrabold uppercase">Food Processing Unit</h4>
+              <p class="text-xs text-slate-300">Mechanical Prep Machinery</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Lightbox Modal -->
+  <div id="lightbox-modal" class="lightbox-modal">
+    <!-- Close button -->
+    <button id="lightbox-close" class="absolute top-6 right-6 text-white hover:text-brand-red p-3 z-50 transition-colors" aria-label="Close Lightbox">
+      <i data-lucide="x" class="w-8 h-8"></i>
+    </button>
+    
+    <!-- Prev button -->
+    <button id="lightbox-prev" class="absolute left-6 top-1/2 -translate-y-1/2 text-white hover:text-brand-flame-orange p-3 z-50 bg-brand-navy/60 hover:bg-brand-navy rounded-full transition-all" aria-label="Previous Image">
+      <i data-lucide="chevron-left" class="w-8 h-8"></i>
+    </button>
+
+    <!-- Next button -->
+    <button id="lightbox-next" class="absolute right-6 top-1/2 -translate-y-1/2 text-white hover:text-brand-flame-orange p-3 z-50 bg-brand-navy/60 hover:bg-brand-navy rounded-full transition-all" aria-label="Next Image">
+      <i data-lucide="chevron-right" class="w-8 h-8"></i>
+    </button>
+
+    <!-- Image wrapper -->
+    <div class="lightbox-img-wrapper p-4">
+      <img id="lightbox-image" src="" alt="Enlarged Commercial Installation">
+      <div class="mt-4 text-center text-white">
+        <span id="lightbox-category" class="text-xs font-ui font-bold text-brand-flame-orange uppercase tracking-widest block mb-1"></span>
+        <h3 id="lightbox-title" class="text-xl font-ui font-bold"></h3>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navy Footer -->
+  <footer class="site-footer bg-brand-navy pt-16 pb-12 border-t border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-slate-800">
+        <div class="lg:col-span-2 space-y-4">
+          <a href="index.html" class="inline-block" aria-label="VIMAL Kitchen Equipment Home">
+            <img src="assets/images/logo/vimal-logo-white.png" alt="VIMAL Kitchen Equipment Logo" class="h-12 sm:h-14 w-auto object-contain">
+          </a>
+          <p class="text-xs uppercase tracking-widest text-brand-flame-orange font-ui font-extrabold">Powering Great Kitchens</p>
+          <p class="text-slate-400 text-sm max-w-sm font-body">Commercial kitchen equipment manufacturer and certified LPG gas &amp; boiler steam pipeline engineering contractor.</p>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-sm font-ui font-extrabold uppercase tracking-wider text-white">Company</h4>
+          <ul class="space-y-2 text-sm font-ui">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="about.html" class="footer-link">About Us</a></li>
+            <li><a href="services.html" class="footer-link">Our Services</a></li>
+            <li><a href="industries.html" class="footer-link">Industries</a></li>
+            <li><a href="projects.html" class="footer-link">Projects &amp; Sites</a></li>
+            <li><a href="gallery.html" class="footer-link text-white font-bold">Installation Gallery</a></li>
+            <li><a href="contact.html" class="footer-link">Contact &amp; Enquiry</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-sm font-ui font-extrabold uppercase tracking-wider text-white">Equipment</h4>
+          <ul class="space-y-2 text-sm font-ui">
+            <li><a href="products.html" class="footer-link">Commercial Cooking</a></li>
+            <li><a href="products.html" class="footer-link">Exhaust Ventilation</a></li>
+            <li><a href="products.html" class="footer-link">Food Processing Machines</a></li>
+            <li><a href="products.html" class="footer-link">Induction Equipment</a></li>
+            <li><a href="products.html" class="footer-link">Bulk Cooking Systems</a></li>
+            <li><a href="products.html" class="footer-link text-brand-flame-orange font-bold">LPG &amp; Steam Pipeline</a></li>
+          </ul>
+        </div>
+        <div class="space-y-3">
+          <h4 class="text-sm font-ui font-extrabold uppercase tracking-wider text-white">Contact</h4>
+          <div class="space-y-2 text-xs font-ui text-slate-400">
+            <p class="flex items-start gap-2">
+              <i data-lucide="map-pin" class="w-4 h-4 text-brand-blue flex-shrink-0 mt-0.5"></i>
+              <span data-config="address">Industrial Estate, Guindy, Chennai, Tamil Nadu - 600032, India</span>
+            </p>
+            <p class="flex items-center gap-2">
+              <i data-lucide="phone" class="w-4 h-4 text-brand-blue flex-shrink-0"></i>
+              <a href="tel:+919876543210" data-config="phone-link" class="hover:text-white" data-config="phone-number">+91 98765 43210</a>
+            </p>
+            <p class="flex items-center gap-2">
+              <i data-lucide="mail" class="w-4 h-4 text-brand-blue flex-shrink-0"></i>
+              <a href="mailto:contact@vimalkitchen.com" data-config="email-link" class="hover:text-white" data-config="email">contact@vimalkitchen.com</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="pt-8 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 font-ui gap-4">
+        <p>© 2026 VIMAL Kitchen Equipment. All Rights Reserved.</p>
+        <div class="flex space-x-6">
+          <a href="#" class="hover:text-slate-300">Privacy Policy</a>
+          <a href="#" class="hover:text-slate-300">Terms of Service</a>
+          <a href="sitemap.xml" class="hover:text-slate-300">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919876543210" data-config="whatsapp-link" target="_blank" rel="noopener noreferrer" class="whatsapp-floating" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <i data-lucide="message-circle" class="w-5 h-5 text-white"></i>
+    <span>WhatsApp Us</span>
+  </a>
+
+  <button id="back-to-top" class="back-to-top" aria-label="Back to Top">
+    <i data-lucide="arrow-up" class="w-5 h-5"></i>
+  </button>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
