@@ -381,6 +381,134 @@ h4, h5, h6 {
 }
 
 /* ==========================================================================
+   Hero Slider Components
+   ========================================================================== */
+.hero-slider-wrapper {
+  position: relative;
+  min-height: 580px;
+}
+
+@media (min-width: 1024px) {
+  .hero-slider-wrapper {
+    min-height: 600px;
+  }
+}
+
+.hero-slide {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  pointer-events: none;
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: translateY(12px) scale(0.99);
+  z-index: 1;
+}
+
+.hero-slide.active {
+  opacity: 1;
+  visibility: visible;
+  position: relative;
+  pointer-events: auto;
+  transform: translateY(0) scale(1);
+  z-index: 10;
+}
+
+.hero-slide .hero-headline {
+  transform: translateY(16px);
+  opacity: 0;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.15s, opacity 0.6s ease 0.15s;
+}
+
+.hero-slide.active .hero-headline {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.hero-slide .hero-desc {
+  transform: translateY(14px);
+  opacity: 0;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.25s, opacity 0.6s ease 0.25s;
+}
+
+.hero-slide.active .hero-desc {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.hero-slide .hero-actions {
+  transform: translateY(12px);
+  opacity: 0;
+  transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1) 0.35s, opacity 0.6s ease 0.35s;
+}
+
+.hero-slide.active .hero-actions {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.hero-slide .hero-img-box {
+  transform: scale(0.97);
+  opacity: 0;
+  transition: transform 0.75s cubic-bezier(0.16, 1, 0.3, 1) 0.1s, opacity 0.75s ease 0.1s;
+}
+
+.hero-slide.active .hero-img-box {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Slide Progress Timer Bar */
+.hero-progress-track {
+  width: 100%;
+  height: 3px;
+  background-color: var(--border-color);
+  border-radius: 9999px;
+  overflow: hidden;
+  position: relative;
+}
+
+.hero-progress-bar {
+  height: 100%;
+  width: 0%;
+  background: linear-gradient(90deg, #0878D1 0%, #EF2B1F 70%, #FF6A00 100%);
+  border-radius: 9999px;
+  transition: width 0.1s linear;
+}
+
+/* Hero Tab Nav Buttons */
+.hero-tab-btn {
+  text-align: left;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.hero-tab-btn:hover {
+  background-color: rgba(241, 245, 249, 0.7);
+  border-color: var(--border-color);
+}
+
+.hero-tab-btn.active {
+  background-color: #FFFFFF;
+  border-color: var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.hero-tab-btn.active .tab-index {
+  color: var(--brand-red);
+}
+
+.hero-tab-btn.active .tab-title {
+  color: var(--brand-navy);
+  font-weight: 800;
+}
+
+/* ==========================================================================
    Product Card Micro-Interactions
    ========================================================================== */
 .product-card {
