@@ -385,10 +385,16 @@ h4, h5, h6 {
    ========================================================================== */
 .hero-slider-wrapper {
   position: relative;
-  min-height: 580px;
+  min-height: 540px;
 }
 
 @media (min-width: 1024px) {
+  .hero-slider-wrapper {
+    min-height: 560px;
+  }
+}
+
+@media (min-width: 1280px) {
   .hero-slider-wrapper {
     min-height: 600px;
   }
