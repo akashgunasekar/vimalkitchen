@@ -78,8 +78,8 @@ All phone numbers are centralized in `js/config.js`:
 
 ```javascript
 const SITE_CONFIG = {
-  PHONE_NUMBER: "+91 98765 43210", // Formatted display number
-  PHONE_RAW: "+919876543210",       // Raw number for tel: links
+  PHONE_NUMBER: "+91 90943 53570", // Formatted display number
+  PHONE_RAW: "+919094353570",       // Raw number for tel: links
   // ...
 };
 ```
@@ -94,7 +94,7 @@ The WhatsApp floating button, top bar buttons, and inquiry links are configured 
 ```javascript
 const SITE_CONFIG = {
   // Enter digits only including country code (e.g. 91 for India):
-  WHATSAPP_NUMBER: "919876543210",
+  WHATSAPP_NUMBER: "919094353570",
   
   // Custom default pre-filled inquiry message:
   WHATSAPP_MESSAGE: "Hello VIMAL Kitchen Equipment, I would like to enquire about your commercial kitchen solutions.",
