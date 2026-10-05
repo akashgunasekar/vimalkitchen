@@ -11,19 +11,18 @@ const SITE_CONFIG = {
   BRAND_NAME: "VIMAL Kitchen Equipment",
   TAGLINE: "Powering Great Kitchens",
   
-  // WhatsApp Configuration (Digits only, including country code, e.g., '919876543210')
-  // Placeholder: '919876543210' - replace with your actual WhatsApp business number
-  WHATSAPP_NUMBER: "919876543210", 
+  // WhatsApp Configuration (Digits only, including country code, e.g., '919094353570')
+  WHATSAPP_NUMBER: "919094353570", 
   
   // Default WhatsApp Message
   WHATSAPP_MESSAGE: "Hello VIMAL Kitchen Equipment, I would like to enquire about your commercial kitchen solutions.",
   
   // Phone Contact Details
-  PHONE_NUMBER: "+91 98765 43210",
-  PHONE_RAW: "+919876543210",
+  PHONE_NUMBER: "+91 90943 53570",
+  PHONE_RAW: "+919094353570",
   
   // Secondary / Sales Hotline (Optional)
-  SECONDARY_PHONE: "+91 98765 43211",
+  SECONDARY_PHONE: "+91 90943 53570",
   
   // Email Address
   EMAIL: "contact@vimalkitchen.com",
@@ -35,10 +34,10 @@ const SITE_CONFIG = {
   // Operating Hours
   WORKING_HOURS: "Monday - Saturday: 9:00 AM - 6:30 PM",
   
-  // Social Media Links (Editable Placeholders)
+  // Social Media Links
   SOCIAL_LINKS: {
     facebook: "#",
-    instagram: "#",
+    instagram: "https://www.instagram.com/vimal_kitchenequipment?utm_source=qr&stkn=MTRrMnU4enZndm5uMQ==",
     linkedin: "#",
     youtube: "#"
   }
@@ -83,5 +82,12 @@ document.addEventListener('DOMContentLoaded', () => {
   // Update Address
   document.querySelectorAll('[data-config="address"]').forEach(el => {
     el.textContent = SITE_CONFIG.ADDRESS;
+  });
+
+  // Update Instagram links
+  document.querySelectorAll('[data-config="instagram-link"]').forEach(el => {
+    el.setAttribute('href', SITE_CONFIG.SOCIAL_LINKS.instagram);
+    el.setAttribute('target', '_blank');
+    el.setAttribute('rel', 'noopener noreferrer');
   });
 });
